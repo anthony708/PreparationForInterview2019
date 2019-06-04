@@ -1,7 +1,7 @@
 import time
 from selenium import webdriver
 
-driver = webdriver.Chrome('/Users/zhuduan/Documents/Projects/libs/chromedriver')
+driver = webdriver.Chrome('./chromedriver')
 driver.get('http://www.google.com')
 time.sleep(5)
 
