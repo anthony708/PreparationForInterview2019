@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-driver = webdriver.Chrome('/Users/zhuduan/Documents/Projects/libs/chromedriver')
+driver = webdriver.Chrome('./chromedriver')
 driver.get('https://google.com')
 
 search_box = driver.find_element_by_name('q')
