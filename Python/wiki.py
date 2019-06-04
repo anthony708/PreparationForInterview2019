@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from locators import WikipediaHomepage,WikipediaArticle
 import time
-driver = webdriver.Chrome('/Users/zhuduan/Documents/Projects/libs/chromedriver')
+driver = webdriver.Chrome('./chromedriver')
 driver.get('https://en.wikipedia.org')
 
 random_link = driver.find_element(*WikipediaHomepage.Ramdom_Link)
